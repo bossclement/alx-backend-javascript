@@ -5,7 +5,7 @@ export default class HolbertonClass {
   }
 
   [Symbol.toPrimitive](type) {
-    if (type === 'String') return this._location;
+    if (type === 'string') return this._location;
     return this._size;
   }
 }
